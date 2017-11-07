@@ -1,0 +1,24 @@
+* {
+  margin-left: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.board {
+  margin: 100px auto;
+  border-collapse: collapse; /*eliminar espacios en blanco entre cuadrantes*/
+}
+
+.board td {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+.board td:hover {
+  background-color: gray;
+}
